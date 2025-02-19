@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    font-family: "League Spartan", serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0, 0%, 100%) ;    
+}
+main{
+    position: relative;
+}
+h1{
+    color:hsl(300, 43%, 22%) ;
+    font-size: 3rem;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    width: 400px;
+}
+.purpose{
+    color:hsl(303, 10%, 53%);
+    position: fixed;
+    top: 38%;
+    left: 10%;
+    width: 350px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.Reviews-1,.Reviews-2,.Reviews-3{
+    background-color: hsl(300, 24%, 96%);
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 10px;
+    color:hsl(300, 43%, 22%) ;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    border-radius: 10px;
+}
+.testimonial-1,.testimonial-2,.testimonial-3{
+    background-color: hsl(300, 43%, 22%);
+    width: 260px;
+    max-width: 100%;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.message{
+    line-height: 20px;
+}
+.name>p{
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+.head>img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.head{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.Reviews-1{
+    position: fixed;
+    top: 18%;
+    left: 50%;
+}
+.Reviews-2{
+    position: fixed;
+    top: 30%;
+    left: 53%;
+}
+.Reviews-3{
+    position: fixed;
+    top: 42%;
+    left: 56%;
+}
+.testimonial-1{
+    position: fixed;
+    top: 53%;
+    left: 10%;
+}
+.testimonial-2{
+    position: fixed;
+    top: 56%;
+    left: 37.5%;
+}
+.testimonial-3{
+    position: fixed;
+    top: 59%;
+    left: 65%;
+}
+.bg-image-1{
+    position: fixed;
+    top: -8%;
+    left: 0%;
+}
+.bg-image-2{
+    position: fixed;
+    top: 15%;
+    left: 23%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    top: 95%;
+    left: 38%;
+    
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+@media(max-width:768px){
+   .Reviews-1,.Reviews-2,.Reviews-3,.testimonial-1,.testimonial-2,.testimonial-3,h1,.purpose,.attribution{
+    position: static;
+   }
+   body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+   }
+   main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+   }
+   h1{
+    margin-top: 70px;
+    width: 80%;
+   }
+   .purpose{
+    font-size: 19px;
+    line-height: 20px;
+    margin: 10px 5px 10px;
+   }
+   .Reviews-1,.Reviews-2,.Reviews-3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+   }
+   .testimonial-1,.testimonial-2,.testimonial-3{
+    text-align: left;
+    width: 80%;
+   }
+}
+
+
+
