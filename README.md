@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/tharun-32/Results-summary-component
-- Live Site URL: https://tharun-result-summary-component.netlify.app/
+- Solution URL: https://github.com/tharun-32/Social-proof-section
+- Live Site URL: https://tharun-social-proof-section.netlify.app/
 
 ## My process
 
